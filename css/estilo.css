@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+	font-family: "Montserrat-Light" ;
+}
+@font-face {
+	font-family: 'Siracha-Regular';
+	src: url('../assets/font/Sriracha-Regular.ttf');
+}
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: url('../assets/font/Montserrat-Light.ttf');
+}
+h1, h2, h3, h4{
+	font-family: "Siracha-Regular", sans-serif;
+	color:#591e91;
+	text-align: center;
+	padding: 20px;
+}
+h3{
+	font-size: 2rem;
+}
+#top{
+	text-align: center;
+}
+.logo{
+	width: 100px;
+	border-radius: 50%;
+}
+nav{
+	text-align: center;
+}
+.menu{
+	background: linear-gradient( #040735, #08b9ea,  #040735);
+    color:white;
+	list-style-type: none;
+	padding: 0;
+	width: 100%;
+	margin: 20px auto; 
+}
+.menu .item{
+	display: inline-block;
+	position:relative;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.menu .item a{
+	color: #1b0a2b;
+	text-decoration: none;
+	font-weight: bolder;
+	display: inline-block;
+	padding: 30px;
+}
+.menu .item a:hover{
+	color: #ddc4f5;
+	border-radius: 30%;
+}
+.menu .item:hover a{
+	background-color: #ccd614;
+	color:rgb(147, 13, 13);
+	border-radius: 30%;
+}
+.main{
+	background-image: url("../assets/img/logo.jpg");
+	height: 450px;
+	width: auto;
+	background-position: local ;
+	background-repeat: no-repeat;
+	background-size:800px;
+	width: 100%;
+	margin: 20px 400px;
+	padding: auto ;
+}
+.contacto{
+	background-image: url("../assets/img/logo.jpg");
+	height: 390px;
+	background-color: gold;
+	background-position: center  ;
+	background-repeat: no-repeat;
+	background-size:400px;
+	width: 90%;
+	margin: 0px 80px;
+	padding: 4px ;
+}
+.form {
+	background-color: #0fcaef;
+	height: 300px;
+	width: 100%;
+	padding: 1px ;
+}
+.historia {
+	background-color: gold;
+  	width: 100%;
+	padding: 2px ;
+}
+.Histo {
+	background-color: gold;
+	background-size:40px;
+	height: 250px;
+	width: 100%;
+	padding: 1px ;
+}
+.pie {
+	width: 100%;
+	padding: 0px ;
+	background-color: #0fcaef;
+	height: 150px;
+}
+.piecontacto {
+	color:rgb(12, 3, 94);
+	text-align: center;
+	height: 50px;
+	padding: 0.5px;
+	margin: 4rem 2rem;
+}
+h5{
+	color:rgb(12, 3, 94);
+	text-align:center;
+	height: 50px;
+	padding: 0.5px;
+	margin: 5px 200px;
+}
+footer{
+	background-color: #0fcaef;
+	height: 100px;
+}
+.redes .social{
+	display:inline-block;
+	text-align:justify ;
+	height: 50px;
+	padding: 0px;
+	margin: 2rem 9rem;
+}
+.galeria {
+	background-color: #0fcaef;
+}
+.salas {
+	background-color: #0fcaef;
+} 
+.sal {
+	background-color: #0fcaef;
+} 
+.sala12 {
+	border-style: solid;
+	padding: 1px;
+	margin-left: 10rem;
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+	background-color: rgb(226, 237, 19);
+	position: relative;
+
+}
+
+.sala3 {
+	border-style: solid;
+	padding: 1px 2px;
+	margin-left: 10rem;
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+	background-color: rgb(226, 237, 19);
+	position: relative;
+	
+}
+img{
+    width: 250px;
+    border: double 2px grey;
+    opacity: .5;
+}
+.fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+img:hover{
+	
+    opacity: 1;
+    border: solid 2px white;
+	
+}
+img:active{
+	transition: all 2s ease;
+	transform: scale(4 , 4);
+}
