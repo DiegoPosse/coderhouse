@@ -28,8 +28,9 @@ h3{
 	text-align: center;
 }
 header {
+	padding: 0%;
 	background-color: #0fcaef;
-	height: 250px;
+	height: 190px;
 }
 .logo{
 	width: 100px;
@@ -111,7 +112,7 @@ nav{
 	width: 100%;
 	padding: 0px ;
 	background-color: #0fcaef;
-	height: 150px;
+	height: 200px;
 }
 .piecontacto {
 	color:rgb(12, 3, 94);
@@ -123,9 +124,11 @@ nav{
 h5{
 	color:rgb(12, 3, 94);
 	text-align:center;
-	height: 50px;
+	height: 70px;
 	padding: 0.5px;
 	margin: 5px 200px;
+	font-size: medium;
+
 }
 footer{
 	background-color: #0fcaef;
