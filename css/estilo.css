@@ -27,6 +27,10 @@ h3{
 #top{
 	text-align: center;
 }
+header {
+	background-color: #0fcaef;
+	height: 250px;
+}
 .logo{
 	width: 100px;
 	border-radius: 50%;
@@ -59,11 +63,15 @@ nav{
 .menu .item a:hover{
 	color: #ddc4f5;
 	border-radius: 30%;
+	transform: rotate(360deg)
 }
+
+	
 .menu .item:hover a{
 	background-color: #ccd614;
 	color:rgb(147, 13, 13);
 	border-radius: 30%;
+	transform: rotate(360deg)
 }
 .main{
 	background-image: url("../assets/img/logo.jpg");
@@ -98,13 +106,7 @@ nav{
   	width: 100%;
 	padding: 2px ;
 }
-.Histo {
-	background-color: gold;
-	background-size:40px;
-	height: 250px;
-	width: 100%;
-	padding: 1px ;
-}
+
 .pie {
 	width: 100%;
 	padding: 0px ;
@@ -178,14 +180,18 @@ img{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+	transition: all 2s ease-out;
 }
 img:hover{
-	
+	transition: all 1s ease-out;
     opacity: 1;
+	display: flex;
+	flex-wrap: wrap;
+	position: center;
     border: solid 2px white;
 	
 }
 img:active{
-	transition: all 2s ease;
+	transition: all 2s ease-out;
 	transform: scale(4 , 4);
 }
