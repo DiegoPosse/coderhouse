@@ -66,7 +66,6 @@ nav{
 	border-radius: 30%;
 	transform: rotate(360deg)
 }
-
 	
 .menu .item:hover a{
 	background-color: #ccd614;
@@ -150,13 +149,24 @@ footer{
 .sal {
 	background-color: #0fcaef;
 } 
+.salageneral {
+	border-style: solid;
+	display: block;
+	padding: 1rem , 1rem;
+	margin: 20rem , 20rem ;
+	width: auto;
+	height: auto;
+	background-color: rgb(226, 237, 19);
+	position: relative;
+	font-size: medium;
+}
 .sala12 {
 	border-style: solid;
-	padding: 1px;
-	margin-left: 10rem;
+	padding: 1rem ;
+	margin-left: auto;
 	display: inline-block;
 	width: 500px;
-	height: 500px;
+	height: 620px;
 	background-color: rgb(226, 237, 19);
 	position: relative;
 
@@ -164,11 +174,11 @@ footer{
 
 .sala3 {
 	border-style: solid;
-	padding: 1px 2px;
-	margin-left: 10rem;
+	padding: 1rem ;
+	margin-left: auto;
 	display: inline-block;
 	width: 500px;
-	height: 500px;
+	height: 600px;
 	background-color: rgb(226, 237, 19);
 	position: relative;
 	
@@ -183,7 +193,7 @@ img{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-	transition: all 2s ease-out;
+	transition: all 1s ease-out;
 }
 img:hover{
 	transition: all 1s ease-out;
@@ -192,9 +202,8 @@ img:hover{
 	flex-wrap: wrap;
 	position: center;
     border: solid 2px white;
-	
 }
 img:active{
 	transition: all 2s ease-out;
-	transform: scale(4 , 4);
+	transform: scale(3 , 3);
 }
