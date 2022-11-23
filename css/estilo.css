@@ -85,13 +85,8 @@ nav{
 	padding: auto ;
 }
 .contacto{
-	background-image: url("../assets/img/logo.jpg");
-	height: 390px;
 	background-color: gold;
-	background-position: center  ;
-	background-repeat: no-repeat;
-	background-size:400px;
-	width: 90%;
+	width:auto ;
 	margin: 0px 80px;
 	padding: 4px ;
 }
@@ -183,8 +178,9 @@ footer{
 	position: relative;
 	
 }
-img{
+img {
     width: 250px;
+	height: 180px;
     border: double 2px grey;
     opacity: .5;
 }
