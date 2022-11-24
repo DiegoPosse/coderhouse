@@ -178,7 +178,7 @@ footer{
 	position: relative;
 	
 }
-img {
+.imag img {
     width: 250px;
 	height: 180px;
     border: double 2px grey;
@@ -191,15 +191,16 @@ img {
     justify-content: space-evenly;
 	transition: all 1s ease-out;
 }
-img:hover{
+.imag img:hover{
 	transition: all 1s ease-out;
     opacity: 1;
-	display: flex;
-	flex-wrap: wrap;
-	position: center;
-    border: solid 2px white;
+	border: solid 2px rgb(6, 5, 5);
 }
 img:active{
 	transition: all 2s ease-out;
 	transform: scale(3 , 3);
+}
+.imagenlogo {
+	margin-left: 15%;
+	position: relative;
 }
