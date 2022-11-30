@@ -30,7 +30,7 @@ h3{
 header {
 	padding: 0%;
 	background-color: #0fcaef;
-	height: 190px;
+	height: auto;
 }
 .logo{
 	width: 100px;
@@ -73,17 +73,7 @@ nav{
 	border-radius: 30%;
 	transform: rotate(360deg)
 }
-.main{
-	background-image: url("../assets/img/logo.jpg");
-	height: 450px;
-	width: auto;
-	background-position: local ;
-	background-repeat: no-repeat;
-	background-size:800px;
-	width: 100%;
-	margin: 20px 400px;
-	padding: auto ;
-}
+
 .contacto{
 	background-color: gold;
 	width:auto ;
@@ -106,12 +96,12 @@ nav{
 	width: 100%;
 	padding: 0px ;
 	background-color: #0fcaef;
-	height: 200px;
+	height: auto;
 }
 .piecontacto {
 	color:rgb(12, 3, 94);
 	text-align: center;
-	height: 50px;
+	height: auto;
 	padding: 0.5px;
 	margin: 4rem 2rem;
 }
@@ -124,16 +114,14 @@ h5{
 	font-size: medium;
 
 }
-footer{
-	background-color: #0fcaef;
-	height: 100px;
-}
+
 .redes .social{
 	display:inline-block;
 	text-align:justify ;
-	height: 50px;
+	height: 100%;
 	padding: 0px;
 	margin: 2rem 9rem;
+	background-color: #0fcaef;
 }
 .galeria {
 	background-color: #0fcaef;
@@ -141,44 +129,15 @@ footer{
 .salas {
 	background-color: #0fcaef;
 } 
-.sal {
-	background-color: #0fcaef;
-} 
-.salageneral {
-	border-style: solid;
-	display: block;
-	padding: 1rem , 1rem;
-	margin: 20rem , 20rem ;
-	width: auto;
-	height: auto;
-	background-color: rgb(226, 237, 19);
-	position: relative;
-	font-size: medium;
+.container .row {
+	@media screen and (max-width:600px){
+		display:flex ;
+	    text-align:justify ;
+		flex-direction: column;
+        flex-wrap: wrap;
+ }
 }
-.sala12 {
-	border-style: solid;
-	padding: 1rem ;
-	margin-left: auto;
-	display: inline-block;
-	width: 500px;
-	height: 620px;
-	background-color: rgb(226, 237, 19);
-	position: relative;
-
-}
-
-.sala3 {
-	border-style: solid;
-	padding: 1rem ;
-	margin-left: auto;
-	display: inline-block;
-	width: 500px;
-	height: 600px;
-	background-color: rgb(226, 237, 19);
-	position: relative;
-	
-}
-img {
+.imag img {
     width: 250px;
 	height: 180px;
     border: double 2px grey;
@@ -191,15 +150,20 @@ img {
     justify-content: space-evenly;
 	transition: all 1s ease-out;
 }
-img:hover{
+.imag img:hover{
 	transition: all 1s ease-out;
     opacity: 1;
-	display: flex;
-	flex-wrap: wrap;
-	position: center;
-    border: solid 2px white;
+	border: solid 2px rgb(6, 5, 5);
 }
 img:active{
 	transition: all 2s ease-out;
 	transform: scale(3 , 3);
+}
+.imagenlogo {
+	margin-left: 15%;
+	position: relative;
+}
+footer{
+	background-color: #0fcaef;
+	height: auto;
 }
