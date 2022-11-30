@@ -137,6 +137,32 @@ h5{
         flex-wrap: wrap;
  }
 }
+<<<<<<< HEAD
+=======
+.sala12 {
+	border-style: solid;
+	padding: 1rem ;
+	margin-left: auto;
+	display: inline-block;
+	width: 500px;
+	height: 620px;
+	background-color: rgb(226, 237, 19);
+	position: relative;
+
+}
+
+.sala3 {
+	border-style: solid;
+	padding: 1rem ;
+	margin-left: auto;
+	display: inline-block;
+	width: 500px;
+	height: 600px;
+	background-color: rgb(226, 237, 19);
+	position: relative;
+	
+}
+>>>>>>> 279961f4d29f9a4ad826359d6a80950267cbc495
 .imag img {
     width: 250px;
 	height: 180px;
@@ -162,8 +188,11 @@ img:active{
 .imagenlogo {
 	margin-left: 15%;
 	position: relative;
+<<<<<<< HEAD
 }
 footer{
 	background-color: #0fcaef;
 	height: auto;
+=======
+>>>>>>> 279961f4d29f9a4ad826359d6a80950267cbc495
 }
