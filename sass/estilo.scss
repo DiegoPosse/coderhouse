@@ -2,6 +2,12 @@
 
 //modificaciones generales//
 
+$color1 : (rgb(14, 212, 247)) ;
+$color2 : gold ;
+
+
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -33,7 +39,7 @@ h5{
 	text-align: center;}
 header {
 	padding: 0%;
-	background-color: #0fcaef;
+	background-color: $color1;
 	height: auto;}
 .logo{
 	width: 100px;
@@ -43,7 +49,7 @@ nav{
 .pie {
 	width: 100%;
 	padding: 0px ;
-	background-color: #0fcaef;
+	background-color: $color1 ;
 	height: auto;}
  .redes .social{
         display:inline-block;
@@ -51,18 +57,18 @@ nav{
         height: 100%;
         padding: 0px;
         margin: 2rem 9rem;
-        background-color: #0fcaef; } 
+        background-color: $color1; } 
 .imagenlogo {
     margin-left: 15%;
     position: relative; }
 footer{
-    background-color: #0fcaef;
+    background-color: $color1;
     height: auto;}
 
 //menu general//
 
 .menu{
-	background: linear-gradient( #040735, #08b9ea,  #040735);
+	background: linear-gradient( #040735, $color1,  #040735);
     color:white;
 	list-style-type: none;
 	padding: 0;
@@ -74,7 +80,7 @@ footer{
 	    font-size: 2rem;
 	    text-align: center;
         :hover{
-            background-color: #ccd614;
+            background-color: $color2;
 	                color:rgb(14, 50, 210);
 	                border-radius: 30%
         }
@@ -90,14 +96,14 @@ footer{
 
 //historia//
 .historia {
-	background-color: gold;
+	background-color: $color2;
   	width: 100%;
 	padding: 2px ;}
 
 
 //galerias//
 .galeria {
-	background-color: #0fcaef;}
+	background-color: $color1;}
 .imag {
     img {
         width: 250px;
@@ -125,7 +131,7 @@ footer{
   
 //salas//
 .salas {
-	background-color: #0fcaef;} 
+	background-color: $color1;} 
 .container .row {
     @media screen and (max-width:600px){
         display:flex ;
@@ -137,12 +143,12 @@ footer{
 
 //formulario de contacto//
 .contacto{
-	background-color: gold;
+	background-color: $color2;
 	width:auto ;
 	margin: 0px 80px;
 	padding: 4px ;}
 .form {
-	background-color: #0fcaef;
+	background-color: $color1;
 	height: 300px;
 	width: 100%;
 	padding: 1px ;}
