@@ -1,9 +1,7 @@
-// comentarios sass , no se ve en css
-
 //modificaciones generales//
 
 $color1 : (rgb(14, 212, 247)) ;
-$color2 : gold ;
+$color2 : (gold );
 
 
 
@@ -11,59 +9,73 @@ $color2 : gold ;
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;}
+	box-sizing: border-box;
+}
 body{
 	overflow-x: hidden;
-	font-family: "Montserrat-Light" ;}
+	font-family: "Montserrat-Light" ;
+}
 @font-face {
 	font-family: 'Siracha-Regular';
-	src: url('../assets/font/Sriracha-Regular.ttf');}
+	src: url('../assets/font/Sriracha-Regular.ttf');
+}
 @font-face {
 	font-family: 'Montserrat-Light';
-	src: url('../assets/font/Montserrat-Light.ttf');}
+	src: url('../assets/font/Montserrat-Light.ttf');
+}
 h1, h2, h3, h4{
 	font-family: "Siracha-Regular", sans-serif;
 	color:#591e91;
 	text-align: center;
-	padding: 20px;}
+	padding: 20px;
+}
 h3{
-	font-size: 2rem;}
+	font-size: 2rem;
+}
 h5{
 	color:rgb(12, 3, 94);
 	text-align:center;
 	height: 70px;
 	padding: 0.5px;
 	margin: 5px 200px;
-	font-size: medium;}
+	font-size: medium;
+}
 #top{
-	text-align: center;}
+	text-align: center;
+}
 header {
 	padding: 0%;
 	background-color: $color1;
-	height: auto;}
+	height: auto;
+}
 .logo{
 	width: 100px;
-	border-radius: 50%;}
+	border-radius: 50%;
+}
 nav{
 	text-align: center;}
 .pie {
 	width: 100%;
 	padding: 0px ;
 	background-color: $color1 ;
-	height: auto;}
- .redes .social{
+	height: auto;
+}
+.redes .social{
         display:inline-block;
         text-align:justify ;
         height: 100%;
         padding: 0px;
         margin: 2rem 9rem;
-        background-color: $color1; } 
+        background-color: $color1;
+ } 
 .imagenlogo {
     margin-left: 15%;
-    position: relative; }
+    position: relative;
+ }
 footer{
     background-color: $color1;
-    height: auto;}
+    height: auto;
+}
 
 //menu general//
 
@@ -98,12 +110,14 @@ footer{
 .historia {
 	background-color: $color2;
   	width: 100%;
-	padding: 2px ;}
+	padding: 2px ;
+}
 
 
 //galerias//
 .galeria {
-	background-color: $color1;}
+	background-color: $color1;
+}
 .imag {
     img {
         width: 250px;
@@ -131,7 +145,8 @@ footer{
   
 //salas//
 .salas {
-	background-color: $color1;} 
+	background-color: $color1;
+} 
 .container .row {
     @media screen and (max-width:600px){
         display:flex ;
@@ -146,15 +161,18 @@ footer{
 	background-color: $color2;
 	width:auto ;
 	margin: 0px 80px;
-	padding: 4px ;}
+	padding: 4px ;
+}
 .form {
 	background-color: $color1;
 	height: 300px;
 	width: 100%;
-	padding: 1px ;}
+	padding: 1px ;
+}
  .piecontacto {
         color:rgb(12, 3, 94);
         text-align: center;
         height: auto;
         padding: 0.5px;
-        margin: 4rem 2rem;}
+        margin: 4rem 2rem;
+}
