@@ -8,198 +8,145 @@ body {
   font-family: "Montserrat-Light"; }
 
 @font-face {
-	font-family: 'Siracha-Regular';
-	src: url('../assets/font/Sriracha-Regular.ttf');
-}
-@font-face {
-	font-family: 'Montserrat-Light';
-	src: url('../assets/font/Montserrat-Light.ttf');
-}
-h1, h2, h3, h4{
-	font-family: "Siracha-Regular", sans-serif;
-	color:#591e91;
-	text-align: center;
-	padding: 20px;
-}
-h3{
-	font-size: 2rem;
-}
-#top{
-	text-align: center;
-}
-header {
-	padding: 0%;
-	background-color: #0fcaef;
-	height: 190px;
-}
-.logo{
-	width: 100px;
-	border-radius: 50%;
-}
-nav{
-	text-align: center;
-}
-.menu{
-	background: linear-gradient( #040735, #08b9ea,  #040735);
-    color:white;
-	list-style-type: none;
-	padding: 0;
-	width: 100%;
-	margin: 20px auto; 
-}
-.menu .item{
-	display: inline-block;
-	position:relative;
-	font-size: 2rem;
-	text-align: center;
-}
+  font-family: 'Siracha-Regular';
+  src: url("../assets/font/Sriracha-Regular.ttf"); }
 
-.menu .item a{
-	color: #1b0a2b;
-	text-decoration: none;
-	font-weight: bolder;
-	display: inline-block;
-	padding: 30px;
-}
-.menu .item a:hover{
-	color: #ddc4f5;
-	border-radius: 30%;
-	transform: rotate(360deg)
-}
-	
-.menu .item:hover a{
-	background-color: #ccd614;
-	color:rgb(147, 13, 13);
-	border-radius: 30%;
-	transform: rotate(360deg)
-}
-.main{
-	background-image: url("../assets/img/logo.jpg");
-	height: 450px;
-	width: auto;
-	background-position: local ;
-	background-repeat: no-repeat;
-	background-size:800px;
-	width: 100%;
-	margin: 20px 400px;
-	padding: auto ;
-}
-.contacto{
-	background-color: gold;
-	width:auto ;
-	margin: 0px 80px;
-	padding: 4px ;
-}
-.form {
-	background-color: #0fcaef;
-	height: 300px;
-	width: 100%;
-	padding: 1px ;
-}
-.historia {
-	background-color: gold;
-  	width: 100%;
-	padding: 2px ;
-}
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url("../assets/font/Montserrat-Light.ttf"); }
+
+h1, h2, h3, h4 {
+  font-family: "Siracha-Regular", sans-serif;
+  color: #591e91;
+  text-align: center;
+  padding: 20px; }
+
+h3 {
+  font-size: 2rem; }
+
+h5 {
+  color: #0c035e;
+  text-align: center;
+  height: 70px;
+  padding: 0.5px;
+  margin: 5px 200px;
+  font-size: medium; }
+
+#top {
+  text-align: center; }
+
+header {
+  padding: 0%;
+  background-color: #0fcaef;
+  height: auto; }
+
+.logo {
+  width: 100px;
+  border-radius: 50%; }
+
+nav {
+  text-align: center; }
 
 .pie {
-	width: 100%;
-	padding: 0px ;
-	background-color: #0fcaef;
-	height: 200px;
-}
-.piecontacto {
-	color:rgb(12, 3, 94);
-	text-align: center;
-	height: 50px;
-	padding: 0.5px;
-	margin: 4rem 2rem;
-}
-h5{
-	color:rgb(12, 3, 94);
-	text-align:center;
-	height: 70px;
-	padding: 0.5px;
-	margin: 5px 200px;
-	font-size: medium;
+  width: 100%;
+  padding: 0px;
+  background-color: #0fcaef;
+  height: auto; }
 
-}
-footer{
-	background-color: #0fcaef;
-	height: 100px;
-}
-.redes .social{
-	display:inline-block;
-	text-align:justify ;
-	height: 50px;
-	padding: 0px;
-	margin: 2rem 9rem;
-}
+.redes .social {
+  display: inline-block;
+  text-align: justify;
+  height: 100%;
+  padding: 0px;
+  margin: 2rem 9rem;
+  background-color: #0fcaef; }
+
+.imagenlogo {
+  margin-left: 15%;
+  position: relative; }
+
+footer {
+  background-color: #0fcaef;
+  height: auto; }
+
+.menu {
+  background: linear-gradient(#040735, #08b9ea, #040735);
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  margin: 20px auto; }
+  .menu .item {
+    display: inline-block;
+    position: relative;
+    font-size: 2rem;
+    text-align: center; }
+    .menu .item :hover {
+      background-color: #ccd614;
+      color: #0e32d2;
+      border-radius: 30%; }
+    .menu .item a {
+      color: #1b0a2b;
+      text-decoration: none;
+      font-weight: bolder;
+      display: inline-block;
+      padding: 30px; }
+
+.historia {
+  background-color: gold;
+  width: 100%;
+  padding: 2px; }
+
 .galeria {
-	background-color: #0fcaef;
-}
+  background-color: #0fcaef; }
+
+.imag img {
+  width: 250px;
+  height: 180px;
+  border: double 2px grey;
+  opacity: .5; }
+
+.imag img:hover {
+  transition: all 1s ease-out;
+  opacity: 1;
+  border: solid 2px #060505; }
+
+.imag img:active {
+  transition: all 2s ease-out;
+  transform: scale(3, 3); }
+
+.fotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  transition: all 1s ease-out; }
+
 .salas {
-	background-color: #0fcaef;
-} 
-.sal {
-	background-color: #0fcaef;
-} 
-.salageneral {
-	border-style: solid;
-	display: block;
-	padding: 1rem , 1rem;
-	margin: 20rem , 20rem ;
-	width: auto;
-	height: auto;
-	background-color: rgb(226, 237, 19);
-	position: relative;
-	font-size: medium;
-}
-.sala12 {
-	border-style: solid;
-	padding: 1rem ;
-	margin-left: auto;
-	display: inline-block;
-	width: 500px;
-	height: 620px;
-	background-color: rgb(226, 237, 19);
-	position: relative;
+  background-color: #0fcaef; }
 
-}
-
-.sala3 {
-	border-style: solid;
-	padding: 1rem ;
-	margin-left: auto;
-	display: inline-block;
-	width: 500px;
-	height: 600px;
-	background-color: rgb(226, 237, 19);
-	position: relative;
-	
-}
-img {
-    width: 250px;
-	height: 180px;
-    border: double 2px grey;
-    opacity: .5;
-}
-.fotos{
+@media screen and (max-width: 600px) {
+  .container .row {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-	transition: all 1s ease-out;
-}
-img:hover{
-	transition: all 1s ease-out;
-    opacity: 1;
-	display: flex;
-	flex-wrap: wrap;
-	position: center;
-    border: solid 2px white;
-}
-img:active{
-	transition: all 2s ease-out;
-	transform: scale(3 , 3);
-}
+    text-align: justify;
+    flex-direction: column;
+    flex-wrap: wrap; } }
+
+.contacto {
+  background-color: gold;
+  width: auto;
+  margin: 0px 80px;
+  padding: 4px; }
+
+.form {
+  background-color: #0fcaef;
+  height: 300px;
+  width: 100%;
+  padding: 1px; }
+
+.piecontacto {
+  color: #0c035e;
+  text-align: center;
+  height: auto;
+  padding: 0.5px;
+  margin: 4rem 2rem; }
