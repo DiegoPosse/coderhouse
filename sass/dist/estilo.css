@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat-Light";
+}
+
+@font-face {
+  font-family: "Siracha-Regular";
+  src: url("../assets/font/Sriracha-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../assets/font/Montserrat-Light.ttf");
+}
+h1, h2, h3, h4 {
+  font-family: "Siracha-Regular", sans-serif;
+  color: #591e91;
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+#top {
+  text-align: center;
+}
+
+header {
+  padding: 0%;
+  background-color: #0fcaef;
+  height: auto;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+nav {
+  text-align: center;
+}
+
+.menu {
+  background: linear-gradient(#040735, #08b9ea, #040735);
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  margin: 20px auto;
+}
+.menu .item {
+  display: inline-block;
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+}
+.menu .item :hover {
+  background-color: #ccd614;
+  color: #930d0d;
+  border-radius: 30%;
+}
+.menu .item a {
+  color: #1b0a2b;
+  text-decoration: none;
+  font-weight: bolder;
+  display: inline-block;
+  padding: 30px;
+}
+.menu .item a a:hover {
+  color: #ddc4f5;
+  border-radius: 30%;
+}
+.menu .item a a:hover a {
+  background-color: #ccd614;
+  color: #930d0d;
+  border-radius: 30%;
+}
