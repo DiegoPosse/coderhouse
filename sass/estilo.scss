@@ -60,14 +60,16 @@ nav{
 	background-color: $color1 ;
 	height: auto;
 }
-.redes .social{
+.redes {
+		.social {
         display:inline-block;
-        text-align:justify ;
+		text-align:center ;
         height: 100%;
         padding: 0px;
-        margin: 2rem 9rem;
+        margin: 2% 10%;
         background-color: $color1;
  } 
+}
 .imagenlogo {
     margin-left: 15%;
     position: relative;
@@ -147,32 +149,36 @@ footer{
 .salas {
 	background-color: $color1;
 } 
-.container .row {
-    @media screen and (max-width:600px){
-        display:flex ;
-        text-align:justify ;
-        flex-direction: column;
-        flex-wrap: wrap; }
+.container {
+	.contenido {
+		padding: 0%;
+	}
+	.row {
+    	@media screen and (max-width:600px){
+        	display:flex ;
+        	text-align:justify ;
+        	flex-direction: column;
+        	flex-wrap: wrap; }
 }    
-
+}
 
 //formulario de contacto//
 .contacto{
 	background-color: $color2;
-	width:auto ;
-	margin: 0px 80px;
-	padding: 4px ;
+	width: 70% ;
+	margin: 1% 20%;
+	padding: 2px ;
 }
 .form {
 	background-color: $color1;
-	height: 300px;
+	height: 50%;
 	width: 100%;
-	padding: 1px ;
+	padding: 1rem 
 }
  .piecontacto {
         color:rgb(12, 3, 94);
-        text-align: center;
+        text-align: justify;
         height: auto;
-        padding: 0.5px;
-        margin: 4rem 2rem;
+        padding: 0;
+        margin: 10% auto;
 }

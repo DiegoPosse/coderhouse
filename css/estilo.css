@@ -1,152 +1,182 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   overflow-x: hidden;
-  font-family: "Montserrat-Light"; }
+  font-family: "Montserrat-Light";
+}
 
 @font-face {
-  font-family: 'Siracha-Regular';
-  src: url("../assets/font/Sriracha-Regular.ttf"); }
-
+  font-family: "Siracha-Regular";
+  src: url("../assets/font/Sriracha-Regular.ttf");
+}
 @font-face {
-  font-family: 'Montserrat-Light';
-  src: url("../assets/font/Montserrat-Light.ttf"); }
-
+  font-family: "Montserrat-Light";
+  src: url("../assets/font/Montserrat-Light.ttf");
+}
 h1, h2, h3, h4 {
   font-family: "Siracha-Regular", sans-serif;
   color: #591e91;
   text-align: center;
-  padding: 20px; }
+  padding: 20px;
+}
 
 h3 {
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
 h5 {
-  color: #0c035e;
+  color: rgb(12, 3, 94);
   text-align: center;
   height: 70px;
   padding: 0.5px;
   margin: 5px 200px;
-  font-size: medium; }
+  font-size: medium;
+}
 
 #top {
-  text-align: center; }
+  text-align: center;
+}
 
 header {
   padding: 0%;
-  background-color: #0ed4f7;
-  height: auto; }
+  background-color: rgb(14, 212, 247);
+  height: auto;
+}
 
 .logo {
   width: 100px;
-  border-radius: 50%; }
+  border-radius: 50%;
+}
 
 nav {
-  text-align: center; }
+  text-align: center;
+}
 
 .pie {
   width: 100%;
   padding: 0px;
-  background-color: #0ed4f7;
-  height: auto; }
+  background-color: rgb(14, 212, 247);
+  height: auto;
+}
 
 .redes .social {
   display: inline-block;
-  text-align: justify;
+  text-align: center;
   height: 100%;
   padding: 0px;
-  margin: 2rem 9rem;
-  background-color: #0ed4f7; }
+  margin: 2% 10%;
+  background-color: rgb(14, 212, 247);
+}
 
 .imagenlogo {
   margin-left: 15%;
-  position: relative; }
+  position: relative;
+}
 
 footer {
-  background-color: #0ed4f7;
-  height: auto; }
+  background-color: rgb(14, 212, 247);
+  height: auto;
+}
 
 .menu {
-  background: linear-gradient(#040735, #0ed4f7, #040735);
+  background: linear-gradient(#040735, rgb(14, 212, 247), #040735);
   color: white;
   list-style-type: none;
   padding: 0;
   width: 100%;
-  margin: 20px auto; }
-  .menu .item {
-    display: inline-block;
-    position: relative;
-    font-size: 2rem;
-    text-align: center; }
-    .menu .item :hover {
-      background-color: gold;
-      color: #0e32d2;
-      border-radius: 30%; }
-    .menu .item a {
-      color: #1b0a2b;
-      text-decoration: none;
-      font-weight: bolder;
-      display: inline-block;
-      padding: 30px; }
+  margin: 20px auto;
+}
+.menu .item {
+  display: inline-block;
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+}
+.menu .item :hover {
+  background-color: gold;
+  color: rgb(14, 50, 210);
+  border-radius: 30%;
+}
+.menu .item a {
+  color: #1b0a2b;
+  text-decoration: none;
+  font-weight: bolder;
+  display: inline-block;
+  padding: 30px;
+}
 
 .historia {
   background-color: gold;
   width: 100%;
-  padding: 2px; }
+  padding: 2px;
+}
 
 .galeria {
-  background-color: #0ed4f7; }
+  background-color: rgb(14, 212, 247);
+}
 
 .imag img {
   width: 250px;
   height: 180px;
   border: double 2px grey;
-  opacity: .5; }
-
+  opacity: 0.5;
+}
 .imag img:hover {
   transition: all 1s ease-out;
   opacity: 1;
-  border: solid 2px #060505; }
-
+  border: solid 2px rgb(6, 5, 5);
+}
 .imag img:active {
   transition: all 2s ease-out;
-  transform: scale(3, 3); }
+  transform: scale(3, 3);
+}
 
 .fotos {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  transition: all 1s ease-out; }
+  transition: all 1s ease-out;
+}
 
 .salas {
-  background-color: #0ed4f7; }
+  background-color: rgb(14, 212, 247);
+}
 
+.container .contenido {
+  padding: 0%;
+}
 @media screen and (max-width: 600px) {
   .container .row {
     display: flex;
     text-align: justify;
     flex-direction: column;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+  }
+}
 
 .contacto {
   background-color: gold;
-  width: auto;
-  margin: 0px 80px;
-  padding: 4px; }
+  width: 70%;
+  margin: 1% 20%;
+  padding: 2px;
+}
 
 .form {
-  background-color: #0ed4f7;
-  height: 300px;
+  background-color: rgb(14, 212, 247);
+  height: 50%;
   width: 100%;
-  padding: 1px; }
+  padding: 1rem;
+}
 
 .piecontacto {
-  color: #0c035e;
-  text-align: center;
+  color: rgb(12, 3, 94);
+  text-align: justify;
   height: auto;
-  padding: 0.5px;
-  margin: 4rem 2rem; }
+  padding: 0;
+  margin: 10% auto;
+}
