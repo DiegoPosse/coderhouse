@@ -176,3 +176,6 @@ footer {
   width: 100%;
   padding: 5%;
 }
+.form label {
+  padding: 1% 1%;
+}
