@@ -123,7 +123,6 @@ footer {
   width: 250px;
   height: 180px;
   border: double 2px grey;
-  opacity: 0.5;
 }
 .imag img:hover {
   transition: all 1s ease-out;
@@ -136,6 +135,7 @@ footer {
 }
 
 .fotos {
+  background-color: rgb(14, 212, 247);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -148,10 +148,14 @@ footer {
 }
 
 .container .contenido {
-  padding: 0%;
+  padding: 1%;
+}
+.container .row {
+  padding: 1%;
 }
 @media screen and (max-width: 600px) {
   .container .row {
+    padding: 3%;
     display: flex;
     text-align: justify;
     flex-direction: column;
@@ -162,21 +166,13 @@ footer {
 .contacto {
   background-color: gold;
   width: 70%;
-  margin: 1% 20%;
-  padding: 2px;
+  margin: 2% 20%;
+  padding: 1px;
 }
 
 .form {
   background-color: rgb(14, 212, 247);
   height: 50%;
   width: 100%;
-  padding: 1rem;
-}
-
-.piecontacto {
-  color: rgb(12, 3, 94);
-  text-align: justify;
-  height: auto;
-  padding: 0;
-  margin: 10% auto;
+  padding: 5%;
 }
